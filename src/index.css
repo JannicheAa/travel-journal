@@ -40,9 +40,11 @@ h2 {
 p {
     margin: 0;
     line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 a {
+    font-size: 1.2rem;
     color: #918E9B;
     text-underline-position: from-font;
     text-decoration-thickness: auto;
