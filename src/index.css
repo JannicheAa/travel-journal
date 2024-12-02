@@ -1,0 +1,101 @@
+html, body {
+    font-family: "Inter", serif;
+    font-size: 10px;
+    color: #2B283A;
+    margin: 0;
+}
+
+nav {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #F55A5A;
+}
+
+nav > img {
+    width: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    gap: 36px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+h2 {
+    margin: 4px 0 0 0;
+    font-size: 2.5rem;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+a {
+    color: #918E9B;
+    text-underline-position: from-font;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    font-weight: 300;
+}
+
+.period{
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.card {
+    width: 470px;
+    display: flex;
+    gap: 24px;
+}
+
+.img-container {
+    width: 125px; /* Bredde på containeren */
+    height: 168px; /* Høyde på containeren */
+    flex-shrink: 0;
+    overflow: hidden;  /*Skjuler deler av bildet som stikker utenfor */
+    position: relative;  /*For å kunne justere bildet innenfor containeren */
+    border-radius: 6px;
+}
+
+.card-img {
+    width: 100%; /* Gjør bildet responsivt */
+    height: 100%; /* Strekker bildet slik at det fyller containeren */
+    object-fit: cover; /* Beskjærer bildet slik at det fyller containeren */
+    object-position: center; /* Sørger for at bildet er sentrert */
+}
+
+.info-container{
+    margin: auto 0;
+}
+
+.first-line{
+    display: flex;
+    align-items: center;
+}
+
+.location-icon{
+    height: 10px;
+    padding-right: 4px;
+}
+
+.location-text{
+    letter-spacing: 1.7px;
+    padding-right: 12px;
+}
+
+.description{
+    margin-top: 8px;
+}
